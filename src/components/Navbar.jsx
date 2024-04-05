@@ -29,19 +29,19 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="/"
+            href="/about"
             className=" hover:text-primary transition duration-200 ease-linear"
           >
             About Us
           </a>
           <a
-            href="/"
+            href="/cars"
             className=" hover:text-primary transition duration-200 ease-linear"
           >
             Our Cars
           </a>
           <a
-            href="/"
+            href="/services"
             className=" hover:text-primary transition duration-200 ease-linear"
           >
             Services
@@ -61,7 +61,7 @@ const Navbar = () => {
       </nav>
       {/* responsive closing menu */}
       <div
-    //   ამ კლასნეიმში დევს მენიუს გამოსაწევი ლისტი ჩამონათტვალიტ
+        //   ამ კლასნეიმში დევს მენიუს გამოსაწევი ლისტი ჩამონათტვალიტ
         className={`${menu ? "translate-x-0" : "-translate-x-full"}
        md:hidden flex flex-col absolute bg-secondary text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-3/4 h-fit rounded-br-xl transition-transform duration-300`}
       >

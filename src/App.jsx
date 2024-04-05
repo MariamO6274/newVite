@@ -1,16 +1,26 @@
-import Navbar from "./components/Navbar"
-
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Cars from "./pages/Cars";
+import Services from "./pages/Services";
 
 function App() {
-
   return (
     <>
-    <Navbar/>    
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/cars" element={<Cars />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
 
 // rafce
+// https://www.youtube.com/watch?v=ZUUTj_9KOlg
