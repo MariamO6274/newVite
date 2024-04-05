@@ -1,11 +1,11 @@
+import Navbar from "./components/Navbar"
 
 
 function App() {
 
   return (
     <>
-    <div className="container bg-primary text-white">Hello App</div>
-      
+    <Navbar/>    
     </>
   )
 }
