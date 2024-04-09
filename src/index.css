@@ -9,6 +9,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-/* .slick-slide>div {
+/* for the slider I have in featureCards */
+.slick-slide>div {
     margin: 0 10px;
-} */
+}

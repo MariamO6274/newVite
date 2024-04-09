@@ -3,7 +3,8 @@ import React from 'react'
 const FeatureCard = ({ id, img, name, price }) => {
   return (
     <div
-      className=" border-2 border-secondary bg-slate-100 text-black rounded-xl mb-2 cursor-pointer hover:scale-95 hover:bg-slate-200 transition duration-200 ease-linear"
+    // style would be from here
+      className=" border-2 border-secondary bg-slate-100 text-black rounded-xl mb-2 cursor-pointer hover:scale-95 hover:bg-slate-200 transition duration-100 ease-linear"
       key={id}
     >
       <div>
@@ -20,3 +21,9 @@ const FeatureCard = ({ id, img, name, price }) => {
 }
 
 export default FeatureCard
+
+
+/* for the slider I have in featureCards this couresel code will go on index.css*/
+// .slick-slide>div {
+//     margin: 0 10px;
+// }
