@@ -6,11 +6,11 @@ import HeroImg from '../components/LandingPage/HeroSection/HeroImg'
 const Home = () => {
   return (
     <>
-        <Navbar/>
-        <HeroImg/>
-        <Hero/>
+      <Navbar />
+      <HeroImg />
+      <Hero />
     </>
-  )
+  );
 }
 
 export default Home
