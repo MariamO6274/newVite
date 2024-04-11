@@ -83,8 +83,8 @@ const Featured = () => {
     ],
   };
   return (
-    <div className=" container bg-black">
-      <h1 className=" font-bold text-4xl text-center text-white">
+    <div className=" container mt-14">
+      <h1 className=" font-bold text-4xl text-center">
         Featured <span className=" text-primary">Cars</span>
       </h1>
 
