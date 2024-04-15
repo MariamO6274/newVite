@@ -7,6 +7,7 @@ import Stats from '../components/LandingPage/Stats/Stats'
 import WhyUs from '../components/LandingPage/WhyUs/WhyUs'
 import OurMission from '../components/LandingPage/Mission.jsx/OurMission'
 import Testimonials from '../components/LandingPage/Testimonials/Testimonials'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <WhyUs/>
       <OurMission/>
       <Testimonials/>
+      <Footer/>
     </>
   );
 }
