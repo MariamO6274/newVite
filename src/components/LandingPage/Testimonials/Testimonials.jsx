@@ -1,58 +1,58 @@
+
+ import { feedback } from "../../../../src/constants";
+// import styles from "../../../style";
+ import FeedbackCard from "./FeedbackCard";
+
+
+// Testimonials
+
 import React from "react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import FeatureCard from "./FeatureCard";
 
-
-const Featured = () => {
-  const carsData = [
+const Testimonials = () => {
+  const newsData = [
     {
       id: 0,
-      img: "/src/assets/img/car1.png",
-      name: "Cadillac Escalade",
-      price: "22,440",
+      img: "/src/assets/img/news1.jpg",
+      desc: "Toyota touts internal combustion engine potential, even in EV age",
     },
     {
       id: 1,
-      img: "/src/assets/img/car2.png",
-      name: "BMW 3 Series",
-      price: "54,890",
+      img: "/src/assets/img/news2.jpg",
+      desc: "BMW Group India clocks best-ever annual sales in 2023, leads luxury electric car segment",
     },
     {
       id: 2,
-      img: "/src/assets/img/car3.png",
-      name: "Mercedes",
-      price: "75,890",
+      img: "/src/assets/img/news3.jpg",
+      desc: "MG Astor 2024 launched in India, price starts at Rs 9.98 lakh",
     },
     {
       id: 3,
-      img: "/src/assets/img/car4.png",
-      name: "BMW 7 Series",
-      price: "55,789",
+      img: "/src/assets/img/news4.jpg",
+      desc: "Kia Sonet facelift launched in India at Rs 7.99 lakh, Tata Nexon & Maruti Suzuki Brezza rival",
     },
     {
       id: 4,
-      img: "/src/assets/img/car5.png",
-      name: "Mercedes-Benz",
-      price: "95,776",
+      img: "/src/assets/img/news5.jpg",
+      desc: "First Shift: New-vehicle inventory reaches 3-year high",
     },
     {
       id: 5,
-      img: "/src/assets/img/car6.png",
-      name: "Range Rover",
-      price: "88,450",
+      img: "/src/assets/img/news6.jpg",
+      desc: "JLR India sales rise 74% in Q3 on robust demand for Range Rover, Range Rover Velar, Defender",
     },
   ];
+
   const settings = {
     dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 4000,
     autoplaySpeed: 2000,
-    cssEase: "linear",
+    pauseOnHover: true,
     arrows: false,
     responsive: [
       {
@@ -85,22 +85,18 @@ const Featured = () => {
   return (
     <div className=" container mt-14">
       <h1 className=" font-bold text-4xl text-center">
-        Featured <span className=" text-primary">Cars</span>
+        Cars <span className=" text-primary">News & Advices</span>
       </h1>
 
       <p className=" text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
         laborum!
       </p>
+
       <div className=" mt-8">
         <Slider {...settings}>
-          {carsData.map((item) => (
-            <FeatureCard
-              key={item.id}
-              img={item.img}
-              name={item.name}
-              price={item.price}
-            />
+          {feedback.map((item) => (
+            <FeedbackCard key={item.id} img={item.img} desc={item.desc} />
           ))}
         </Slider>
       </div>
@@ -108,6 +104,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
-
-// here we go
+export default Testimonials;
