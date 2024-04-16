@@ -102,13 +102,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div>
+      {/* add up line here for saperation  */}
+      <div className=" py-6 border-t-[1px] border-t-[#3F3E45]">
         <p className=" text-center py-4">
-          @copyright developed by
-          <span className=" text-primary font-semibold mx-2">
-            champion programmers
-          </span>
-          | All rights reserved
+          Ⓒ 2024 GeoAutoSales | All Rights Reserved.
         </p>
       </div>
     </footer>

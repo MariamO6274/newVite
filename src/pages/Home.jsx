@@ -8,19 +8,24 @@ import WhyUs from '../components/LandingPage/WhyUs/WhyUs'
 import OurMission from '../components/LandingPage/Mission.jsx/OurMission'
 import Testimonials from '../components/LandingPage/Testimonials/Testimonials'
 import Footer from '../components/Footer'
+import styles from "../style";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <HeroImg />
-      <Stats/>
-      <Hero />
-      <Featured/>
-      <WhyUs/>
-      <OurMission/>
-      <Testimonials/>
-      <Footer/>
+      <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Stats />
+          <Hero />
+          <Featured />
+          <WhyUs />
+          <OurMission />
+          <Testimonials />
+          <Footer />
+        </div>
+      </div>
     </>
   );
 }
