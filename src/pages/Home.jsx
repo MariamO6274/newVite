@@ -7,9 +7,9 @@ import Stats from '../components/LandingPage/Stats/Stats'
 import WhyUs from '../components/LandingPage/WhyUs/WhyUs'
 import OurMission from '../components/LandingPage/Mission.jsx/OurMission'
 import Testimonials from '../components/LandingPage/Testimonials/Testimonials'
-import Footer from '../components/Footer'
 import styles from "../style";
-import Foot from '../components/Foot'
+import CTA from '../components/LandingPage/CTA/CTA'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -24,8 +24,9 @@ const Home = () => {
           <WhyUs />
           <OurMission />
           <Testimonials />
-          <Footer />
-          <Foot/>
+          <CTA/>
+         <Footer/>
+          
         </div>
       </div>
     </>
