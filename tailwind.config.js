@@ -6,6 +6,7 @@ export default {
       colors: {
         primary: "#FF7A00",
         secondary: "#000000",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
       },
       container: {
         center: true,

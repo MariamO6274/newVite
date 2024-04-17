@@ -9,6 +9,7 @@ import OurMission from '../components/LandingPage/Mission.jsx/OurMission'
 import Testimonials from '../components/LandingPage/Testimonials/Testimonials'
 import Footer from '../components/Footer'
 import styles from "../style";
+import Foot from '../components/Foot'
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
           <OurMission />
           <Testimonials />
           <Footer />
+          <Foot/>
         </div>
       </div>
     </>
