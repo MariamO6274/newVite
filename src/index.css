@@ -42,9 +42,9 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
-
+/* bg-blue-gradient button shi*/
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -66,14 +66,60 @@ body {
   );
 }
 
+
+
+/* esaa sheacvleli tester 1*/
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #B3541E -278.56%,
+    #A13333 -78.47%,
+    #461111  91.61%
   );
 }
+
+.text-gradient-bottom-logo {
+  background: linear-gradient(
+    -168.39deg,
+    #B3541E -278.56%,
+    #A13333 -78.47%,
+    #461111  91.61%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+/* esaa sheacvleli tester 2 */
+/* .bg-black-gradient-2 {
+  background: linear-gradient(
+    -45deg,
+    #B3541E -278.56%,
+    #A13333 -78.47%,
+    #f07e22 91.61%
+  );
+} */
+
+/* esaa kaaia*/
+/* .bg-black-gradient-2 {
+  background: linear-gradient(
+    45deg,
+    #B3541E,
+    #A13333,
+    #f07e22
+  );
+} */
+
+/* .bg-black-gradient-2 {
+  background: linear-gradient(
+    190deg,
+    #B3541E,
+    #A13333,
+    #f07e22
+  );
+} */
+
 
 .bg-gray-gradient {
   background: linear-gradient(

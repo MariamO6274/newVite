@@ -2,7 +2,7 @@ import styles from "../../../style";
 
 const CTA = () => (
   <section
-    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-[20px] box-shadow`}
   >
     {/* arrange text and button inside card */}
     <div className="flex-1 flex flex-col">
@@ -14,12 +14,11 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-     
       <button
         type="button"
-        className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
+        className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-black-gradient-2 rounded-[10px] outline-none ${styles}`}
       >
-        Get Started
+        Contact Us
       </button>
     </div>
   </section>

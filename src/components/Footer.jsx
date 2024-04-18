@@ -6,16 +6,19 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
     return (
-      <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+      <section className={`${styles.flexCenter} ${styles.paddingY} flex-col `}>
         <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
           <div className="flex-[1] flex flex-col justify-start mr-10">
-            <h1 className=" font-semibold text-2xl pb-4 text-primary">
+            <h1 className=" font-semibold text-3xl pb-4 text-primary">
               GeoAutoSales
             </h1>
             <p
               className={`${styles.paragraph} mt-4 max-w-[312px] text-dimWhite`}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              1234 Mian Street Unit 9<br />
+              Denver CO 12345
+              <br />
+              123-456-7890
             </p>
           </div>
 
