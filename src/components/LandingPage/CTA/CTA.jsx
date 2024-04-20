@@ -2,7 +2,7 @@ import styles from "../../../style";
 
 const CTA = () => (
   <section
-    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-[20px] box-shadow`}
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-[20px] bg-black-gradient box-shadow`}
   >
     {/* arrange text and button inside card */}
     <div className="flex-1 flex flex-col">
@@ -25,3 +25,4 @@ const CTA = () => (
 );
 
 export default CTA;
+

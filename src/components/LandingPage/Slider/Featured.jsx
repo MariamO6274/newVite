@@ -84,11 +84,11 @@ const Featured = () => {
   };
   return (
     <div className=" container mt-14">
-      <h1 className=" font-bold text-4xl text-center">
-        Featured <span className=" text-primary">Cars</span>
+      <h1 className=" font-bold text-4xl text-center text-gradient">
+        Featured Cars
       </h1>
 
-      <p className=" text-center">
+      <p className=" text-center text-dimWhite">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
         laborum!
       </p>
