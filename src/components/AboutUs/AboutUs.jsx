@@ -1,6 +1,7 @@
 import React from "react";
 import OurTeam from "./OurTeam";
 import Approach from "./Approach";
+// import Footer from "../Footer";
 
 const AboutUs = () => {
   return (
@@ -13,6 +14,7 @@ const AboutUs = () => {
 
       <OurTeam />
       <Approach />
+      {/* <Footer/> */}
     </div>
   );
 };
