@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import OurServices from "../components/Services/OurServices";
+import Footer from '../components/Footer'
 
 const Services = () => {
   return (
     <>
         <Navbar/>
-        <h1> Service page</h1>
+        <OurServices/>
+        <Footer/>
     </>
   )
 }
