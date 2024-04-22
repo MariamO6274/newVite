@@ -49,7 +49,7 @@ const Navbar = () => {
             Services
           </Link>
           <button className=" hidden lg:flex border-2 border-primary text-lg px-4 rounded-md hover:bg-primary transition duration-200 ease-linear">
-            Sign In
+            Contact
           </button>
         </div>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
 
         <div>
           <button className="border-2 border-primary py-1 px-4 rounded-md">
-            Sign In
+            Contact
           </button>
         </div>
       </div>

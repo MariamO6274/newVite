@@ -8,12 +8,12 @@ import { SiCoronaengine } from "react-icons/si";
 import ServiceCards from "./ServiceCards";
 
 const OurServices = () => {
-  const icon1 = <GiCarWheel className=" text-green-500 mx-auto" size={48} />;
+  const icon1 = <GiCarWheel className="500 mx-auto" size={48} />;
   const icon2 = (
-    <SiGoogleearthengine className=" text-green-500 mx-auto" size={48} />
+    <SiGoogleearthengine className=" mx-auto" size={48} />
   );
   const icon3 = (
-    <MdDesignServices className=" text-green-500 mx-auto" size={48} />
+    <MdDesignServices className=" mx-auto" size={48} />
   );
 
   const icon4 = <IoSettings className=" text-green-500 mx-auto" size={48} />;
