@@ -28,7 +28,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "I was dreading the car buying process, but thanks to the team at GeoAuto sales, it was a breeze! They helped me find the perfect car within my budget, and their personalized service made all the difference. Highly recommended!",
     name: "Herman Jensen",
     title: "Founder & Leader",
     // img: ppl1,
@@ -36,20 +36,24 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+      "I had been searching for weeks for the right car, but nothing seemed to fit the bill. Then I found [Your Business Name], and they made it happen! The dealer listened to my needs and found me a fantastic car at a great price. Couldn't be happier!",
+    name: "John Deo",
     title: "Founder & Leader",
     // img: ppl2,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "I've bought several cars in the past, but my experience with Geo auto sales was by far the best! The dealer was knowledgeable, professional, and genuinely cared about finding me the right car. I'll definitely be recommending them to all my friends and family!",
+    name: "Michael G",
     title: "Founder & Leader",
     // img: ppl3,
   },
 ];
+
+// As a first-time car buyer, I was nervous about making such a big decision.
+// But GeoAutoSales made the process easy and stress-free! The dealer walked me through every step,
+// answered all my questions, and helped me find the perfect car for my needs. Thank you!
 
 export const footerLinks = [
   {
