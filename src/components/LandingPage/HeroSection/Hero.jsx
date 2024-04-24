@@ -14,20 +14,20 @@ const Hero = () => {
 
         <div className=" w-full md:w-2/4 space-y-5 mt-2">
           <h1 className=" text-3xl lg:text-6xl font-bold leading-tight text-gradient">
-            Find Your Perfect Ride Today
+            Your Perfect Match Awaits Behind the Wheel
           </h1>
           <p className=" text-lg lg:text-2xl font-medium">
-            Over 1000+ New Cars Available Here
+            Personalized Car Finding Service Tailored Just for You
           </p>
           <p className=" text-sm lg:text-base ext-dimWhite">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam
-            recusandae ratione ducimus molestias ab neque accusamus eveniet
-            cumque corrupti.
+            Expert Advice and Seamless Assistance Every Step of the Way, Find
+            Your Ideal Car with Confidence and Ease, Over 1000+ New Cars
+            Available Here
           </p>
 
           <div className="flex gap-8">
             <button className="border-2 border-primary py-3 px-4 rounded-md hover:scale-95 transition duration-150 ease-linear">
-              Explore More
+              Discover Your Ideal Ride
             </button>
           </div>
         </div>
