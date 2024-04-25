@@ -10,6 +10,7 @@ import Testimonials from '../components/LandingPage/Testimonials/Testimonials'
 import styles from "../style";
 import CTA from '../components/LandingPage/CTA/CTA'
 import Footer from '../components/Footer'
+import Business from '../components/LandingPage/Business/Business'
 
 const Home = () => {
   return (
@@ -23,10 +24,10 @@ const Home = () => {
           <Featured />
           <WhyUs />
           <OurMission />
+          <Business />
           <Testimonials />
-          <CTA/>
-         <Footer/>
-          
+          <CTA />
+          <Footer />
         </div>
       </div>
     </>
