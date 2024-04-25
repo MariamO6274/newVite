@@ -36,9 +36,9 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "I had been searching for weeks for the right car, but nothing seemed to fit the bill. Then I found [Your Business Name], and they made it happen! The dealer listened to my needs and found me a fantastic car at a great price. Couldn't be happier!",
+      "I had been searching for weeks for the right car, but nothing seemed to fit the bill. Then I found Geo Auto Sales, and they made it happen! The dealer listened to my needs and found me a fantastic car at a great price. Couldn't be happier!",
     name: "John Deo",
-    title: "Founder & Leader",
+    title: "Teacher",
     // img: ppl2,
   },
   {
@@ -46,7 +46,7 @@ export const feedback = [
     content:
       "I've bought several cars in the past, but my experience with Geo auto sales was by far the best! The dealer was knowledgeable, professional, and genuinely cared about finding me the right car. I'll definitely be recommending them to all my friends and family!",
     name: "Michael G",
-    title: "Founder & Leader",
+    title: "Driver",
     // img: ppl3,
   },
 ];
@@ -72,7 +72,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Parts",
+        name: "FAQ",
         link: "https://www.hoobank.com/explore/",
       },
       // {
