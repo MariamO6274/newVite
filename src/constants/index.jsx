@@ -29,23 +29,23 @@ export const features = [
   {
     id: "feature-1",
     // icon: star,
-    title: "Rewards",
+    title: "Car Locating Assistance",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Help customers find the specific make, model, and features they're looking for,  even if it's not currently in your inventory.",
   },
   {
     id: "feature-2",
     // icon: shield,
-    title: "100% Secured",
+    title: "Financing Assistance",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Partner with banks, credit unions, or financial institutions to offer financing options to customers.",
   },
   {
     id: "feature-3",
     // icon: send,
-    title: "Balance Transfer",
+    title: "Maintenance and Repair Services",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Provide on-site or partnered vehicle maintenance and repair services to ensure customers.",
   },
 ];
 

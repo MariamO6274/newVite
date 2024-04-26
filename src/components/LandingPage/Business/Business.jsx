@@ -33,12 +33,14 @@ const Business = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You choose car, <br className="sm:block hidden" /> we’ll handle the
-        process.
+        Customer Education
+        and Support
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum
-        dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor.
+        Provide educational resources, guides, and tips on topics such as car
+        maintenance, financing options, and navigating the car buying process.
+        Offer ongoing customer support to address any questions or concerns they
+        may have before, during, and after the purchase.
       </p>
 
       <button
@@ -53,10 +55,10 @@ const Business = () => (
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
-        
       ))}
     </div>
   </section>
 );
 
 export default Business;
+
