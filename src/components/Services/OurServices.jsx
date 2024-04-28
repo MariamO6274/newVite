@@ -25,8 +25,8 @@ const OurServices = () => {
   return (
     <div className="container pt-24">
       <div>
-        <h1 className=" font-bold text-4xl text-center">
-          Our <span className=" text-primary">Services</span>
+        <h1 className=" font-bold text-4xl text-center text-gradient">
+          Our Services
         </h1>
       </div>
 

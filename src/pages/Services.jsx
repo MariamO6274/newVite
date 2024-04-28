@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import OurServices from "../components/Services/OurServices";
-// import Footer from '../components/Footer'
+import FooterPages from '../components/FooterPages';
 
 const Services = () => {
   return (
     <>
-        <Navbar/>
-        <OurServices/>
-        {/* <Footer/> */}
+      <Navbar />
+      <OurServices/>
+      <FooterPages />
     </>
-  )
+  );
 }
 
 export default Services
