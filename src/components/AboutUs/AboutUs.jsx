@@ -2,7 +2,6 @@ import React from "react";
 import OurTeam from "./OurTeam";
 import Approach from "./Approach";
 import FooterPages from "../FooterPages";
-// import WhyUs from '../components/LandingPage/WhyUs/WhyUs'
 import WhyUs from '../../components/LandingPage/WhyUs/WhyUs'
 
 const AboutUs = () => {

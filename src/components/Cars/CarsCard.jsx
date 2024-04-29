@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../../style";
 
 const CarsCard = ({ id, img, name, price }) => {
   return (
@@ -14,7 +15,10 @@ const CarsCard = ({ id, img, name, price }) => {
       </p>
       <div className=" flex justify-between px-6 pb-2">
         <h3 className=" font-semibold text-xl">${price}</h3>
-        <button className=" bg-secondary text-white text-base md:text-lg px-2 md:px-3 py-1 rounded-md hover:bg-primary transition duration-200 ease-linear">
+        <button
+          type="button"
+          className={`py-1 px-3 font-poppins font-small text-[18px] text-primary bg-black-gradient-2 rounded-[10px] outline-none ${styles}`}
+        >
           Book Now
         </button>
       </div>
