@@ -8,6 +8,7 @@ const Approach = () => {
       {/* content section  */}
       <div className="w-full md:w-2/4 space-y-4">
         <h1 className=" text-4xl font-bold ">Our Approch</h1>
+        <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]"></div>
 
         <h2 className=" font-semibold text-lg lg:text-2xl">
           Empower individuals to achieve sustainable mobility solutions and
