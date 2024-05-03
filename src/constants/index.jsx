@@ -86,19 +86,19 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: "https://www.hoobank.com/content/",
+        link: "/",
       },
       {
         name: "Cars",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "/",
       },
       {
         name: "Services",
-        link: "https://www.hoobank.com/create/",
+        link: "/",
       },
       {
         name: "FAQ",
-        link: "https://www.hoobank.com/explore/",
+        link: "/",
       },
       // {
       //   name: "Terms & Services",
@@ -111,15 +111,15 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "/",
       },
       // {
       //   name: "Newsletters",
@@ -132,15 +132,15 @@ export const footerLinks = [
     links: [
       {
         name: "Facebook",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "/",
       },
       {
         name: "Instegram",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/",
       },
       {
         name: "TikTok",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/",
       },
     ],
   },
