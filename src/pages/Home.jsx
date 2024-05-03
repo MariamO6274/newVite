@@ -11,6 +11,7 @@ import styles from "../style";
 import CTA from '../components/LandingPage/CTA/CTA'
 import Footer from '../components/Footer'
 import Business from '../components/LandingPage/Business/Business'
+import FAQ from '../components/LandingPage/FAQ/FAQ'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
           <OurMission />
           <Business />
           <Testimonials />
+          <FAQ/>
           <CTA />
           <Footer />
         </div>
