@@ -6,24 +6,12 @@ const FAQ = () => (
   >
     {/* arrange text and button inside card */}
     <div className="flex-1 flex flex-col">
-      <h2 className={styles.heading2}>
-        Let Us Guide You to Your Ideal Car Choice!
-      </h2>
+      <h2 className={styles.heading2}>Frequently asked questions</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Discover you ideal ride, Expert Assistance in Finding the Perfect
-        Vehicle for You, Start Your Journey Now, Experience Car Buying Made
-        Simple
+        Coming up ...
       </p>
     </div>
 
-    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <button
-        type="button"
-        className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-black-gradient-2 rounded-[10px] outline-none ${styles}`}
-      >
-        Contact Us
-      </button>
-    </div>
   </section>
 );
 
