@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
+import styles from "../../../style"
 
 function AccordionCard() {
+    const [isVisible, setIsVisible] = useState(false);
   return (
-    <div>AccordionCard</div>
-  )
+    <div className={styles.paragraph}>
+      <div onClick={() => setIsVisible(!isVisible)}>
+        Accordion title card 1-What should I look for when buying a used car?
+        {isVisible ? <p>
+          When buying a used car, it's essential to inspect the vehicle's
+          condition, including its mileage, maintenance history, and any signs
+          of damage or wear. Consider getting a pre-purchase inspection from a
+          trusted mechanic to uncover any hidden issues before making a
+          decision.
+        </p> : null}
+      </div>
+      {/* <div>Accordion card 2</div> */}
+    </div>
+  );
 }
 
 export default AccordionCard
@@ -45,4 +59,3 @@ export default AccordionCard
 
 // Answer:
 // Dealerships often offer financing options for used car purchases, including loans from banks, credit unions, and other lenders. Additionally, you may choose to secure financing independently through your bank or financial institution. Compare rates and terms to find the best financing option for your needs.
-
