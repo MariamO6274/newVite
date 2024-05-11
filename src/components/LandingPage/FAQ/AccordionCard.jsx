@@ -7,14 +7,26 @@ function AccordionCard() {
     <div className={styles.paragraph}>
       <div onClick={() => setIsVisible(!isVisible)}>
         Accordion title card 1-What should I look for when buying a used car?
-        {isVisible ? <p>
-          When buying a used car, it's essential to inspect the vehicle's
-          condition, including its mileage, maintenance history, and any signs
-          of damage or wear. Consider getting a pre-purchase inspection from a
-          trusted mechanic to uncover any hidden issues before making a
-          decision.
-        </p> : null}
+        {isVisible ? (
+          <p>
+            When buying a used car, it's essential to inspect the vehicle's
+            condition, including its mileage, maintenance history, and any signs
+            of damage or wear. Consider getting a pre-purchase inspection from a
+            trusted mechanic to uncover any hidden issues before making a
+            decision.
+          </p>
+        ) : null}
       </div>
+
+      <div onClick={() => setIsVisible(!isVisible)}>
+        Accordion title card 22222
+        {isVisible ? (
+          <p>
+            texs 222
+          </p>
+        ) : null}
+      </div>
+
       {/* <div>Accordion card 2</div> */}
     </div>
   );
