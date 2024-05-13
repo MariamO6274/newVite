@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import styles from "../../../style"
 
 function AccordionCard() {
-    const [isVisible, setIsVisible] = useState(false);
+    const [activeAccordionNumber, setActiveAccordionNumber] = useState(3);
   return (
     <div className={styles.paragraph}>
-      <div onClick={() => setIsVisible(!isVisible)}>
+      <div onClick={() => setActiveAccordionNumber(1)}>
         Accordion title card 1-What should I look for when buying a used car?
-        {isVisible ? (
+        {activeAccordionNumber === 1 ? (
           <p>
             When buying a used car, it's essential to inspect the vehicle's
             condition, including its mileage, maintenance history, and any signs
@@ -17,14 +17,10 @@ function AccordionCard() {
           </p>
         ) : null}
       </div>
-
-      <div onClick={() => setIsVisible(!isVisible)}>
+      {/* somewhere here */}
+      <div onClick={() => setActiveAccordionNumber(!isVisible)}>
         Accordion title card 22222
-        {isVisible ? (
-          <p>
-            texs 222
-          </p>
-        ) : null}
+        {activeAccordionNumber === 2 ? <p>texs 222</p> : null}
       </div>
 
       {/* <div>Accordion card 2</div> */}
