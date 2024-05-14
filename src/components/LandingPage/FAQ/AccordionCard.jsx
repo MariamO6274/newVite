@@ -18,12 +18,12 @@ function AccordionCard() {
         ) : null}
       </div>
       {/* somewhere here */}
+      {/* <div>Accordion card 2</div> */}
       <div onClick={() => setActiveAccordionNumber(!isVisible)}>
         Accordion title card 22222
-        {activeAccordionNumber === 2 ? <p>texs 222</p> : null}
+        {activeAccordionNumber === 2 ? <p>Both dealerships and private sellers have their advantages and disadvantages. Dealerships often offer certified pre-owned vehicles, warranties, and financing options, while private sellers may offer lower prices and more negotiation flexibility. Consider your preferences and priorities when deciding where to buy.
+</p> : null}
       </div>
-
-      {/* <div>Accordion card 2</div> */}
     </div>
   );
 }
