@@ -19,16 +19,32 @@ function AccordionCard() {
       </div>
       {/* somewhere here */}
       {/* <div>Accordion card 2</div> */}
-      <div onClick={() => setActiveAccordionNumber(!isVisible)}>
+      <div onClick={() => setActiveAccordionNumber(2)}>
         Accordion title card 22222
-        {activeAccordionNumber === 2 ? <p>Both dealerships and private sellers have their advantages and disadvantages. Dealerships often offer certified pre-owned vehicles, warranties, and financing options, while private sellers may offer lower prices and more negotiation flexibility. Consider your preferences and priorities when deciding where to buy.
-</p> : null}
+        {activeAccordionNumber === 2 ? (
+          <p>
+            Both dealerships and private sellers have their advantages and
+            disadvantages. Dealerships often offer certified pre-owned vehicles,
+            warranties, and financing options, while private sellers may offer
+            lower prices and more negotiation flexibility. Consider your
+            preferences and priorities when deciding where to buy.
+          </p>
+        ) : null}
+      </div>
+      <div onClick={() => setActiveAccordionNumber(3)}>
+        Accordion title card 33333
+        {activeAccordionNumber === 3 ? (
+          <p>
+            333333
+          </p>
+        ) : null}
       </div>
     </div>
   );
 }
 
 export default AccordionCard
+
 
 // FAQ
 
