@@ -1,19 +1,28 @@
-import React, { useState } from 'react'
-import styles from "../../../style"
+import React, { useState } from "react";
+import styles from "../../../style";
 
 function AccordionCard() {
-    const [activeAccordionNumber, setActiveAccordionNumber] = useState(3);
+  const [activeAccordionNumber, setActiveAccordionNumber] = useState(3);
   return (
     <div className={styles.paragraph}>
-      <div onClick={() => setActiveAccordionNumber(1)}>
+      <div
+        onClick={() => {
+          if (activeAccordionNumber === 1) {
+            setActiveAccordionNumber(null);
+          } else {
+            setActiveAccordionNumber(1);
+          }
+        }}
+      >
         Accordion title card 1-What should I look for when buying a used car?
         {activeAccordionNumber === 1 ? (
           <p>
-            When buying a used car, it's essential to inspect the vehicle's
+            {/* When buying a used car, it's essential to inspect the vehicle's
             condition, including its mileage, maintenance history, and any signs
             of damage or wear. Consider getting a pre-purchase inspection from a
             trusted mechanic to uncover any hidden issues before making a
-            decision.
+            decision. */}
+            1111111111111111
           </p>
         ) : null}
       </div>
@@ -23,28 +32,24 @@ function AccordionCard() {
         Accordion title card 22222
         {activeAccordionNumber === 2 ? (
           <p>
-            Both dealerships and private sellers have their advantages and
+            {/* Both dealerships and private sellers have their advantages and
             disadvantages. Dealerships often offer certified pre-owned vehicles,
             warranties, and financing options, while private sellers may offer
             lower prices and more negotiation flexibility. Consider your
-            preferences and priorities when deciding where to buy.
+            preferences and priorities when deciding where to buy. */}
+            22222222222222222
           </p>
         ) : null}
       </div>
       <div onClick={() => setActiveAccordionNumber(3)}>
         Accordion title card 33333
-        {activeAccordionNumber === 3 ? (
-          <p>
-            333333
-          </p>
-        ) : null}
+        {activeAccordionNumber === 3 ? <p>333333333</p> : null}
       </div>
     </div>
   );
 }
 
-export default AccordionCard
-
+export default AccordionCard;
 
 // FAQ
 
