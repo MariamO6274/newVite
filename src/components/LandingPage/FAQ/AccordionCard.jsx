@@ -5,6 +5,15 @@ import AccordionIteam from "./AccordionIteam";
 function AccordionCard() {
   const [activeAccordionNumber, setActiveAccordionNumber] = useState(null);
 
+  const items = [
+    {
+        iteamNumber: 1,
+        title: "1. What should I look for when buying a used car?",
+        content: "When buying a used car, it's essential to inspect the vehicle's condition, including its mileage, maintenance history, and any signs of damage or wear. Consider getting a pre-purchase inspection from a trusted mechanic to uncover any hidden issues before making a decision.",
+    },
+  ]
+  // adding arrays here
+
   const handleClick = (accordionNumber) => {
     if (activeAccordionNumber === accordionNumber) {
       setActiveAccordionNumber(null);
