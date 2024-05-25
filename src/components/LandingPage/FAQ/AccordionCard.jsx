@@ -43,7 +43,6 @@ function AccordionCard() {
         "Dealerships often offer financing options for used car purchases, including loans from banks, credit unions, and other lenders. Additionally, you may choose to secure financing independently through your bank or financial institution. Compare rates and terms to find the best financing option for your needs.",
     },
   ];
-  // adding arrays here and create 5 more for all of them
 
   // map goes here and missing line
   const handleClick = (accordionNumber) => {
@@ -77,3 +76,5 @@ function AccordionCard() {
 export default AccordionCard;
 
 
+// To Do
+// FAQ needs styling with underlins and centerd
