@@ -76,5 +76,6 @@ function AccordionCard() {
 export default AccordionCard;
 
 
+
 // To Do
 // FAQ needs styling with underlins and centerd
