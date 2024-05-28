@@ -54,8 +54,8 @@ function AccordionCard() {
   };
 
   return (
-    
     <div className={styles.paragraph}>
+      <div className={styles.heading2}>Frequently asked questions:</div>
       {items.map((item) => (
         <AccordionIteam
           activeAccordionNumber={activeAccordionNumber}
@@ -64,17 +64,12 @@ function AccordionCard() {
           title={item.title}
           content={item.content}
         />
-        
       ))}
-
-      <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]"></div>
-
-      </div>
+    </div>
   );
 }
 
 export default AccordionCard;
-
 
 
 // To Do
